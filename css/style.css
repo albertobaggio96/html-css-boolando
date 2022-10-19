@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 .flex-space-between{
   display: flex;
   justify-content: space-between;
@@ -24,6 +28,7 @@
 
 header{
   background-color: orangered;
+  color: white;
 }
 
 nav{
@@ -32,6 +37,10 @@ nav{
 
 nav ul li{
   display: inline;
+}
+
+header img{
+  height: 50%;
 }
 /* end header */
 
