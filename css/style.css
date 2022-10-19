@@ -63,14 +63,26 @@ main img{
 }
 
 div.heart{
+  font-size: 2rem;
   top: .5rem;
   right: 0;
-  padding: .5rem 1rem;
+  padding: .3rem .7rem;
   background-color: white;
 }
 
 div.discount{
   bottom: 2rem;
+}
+
+div.discount,
+figcaption{
+  font-size: .8rem;
+}
+
+div.discount span{
+  padding: .2rem;
+  color: white;
+  font-weight: bolders;
 }
 
 span.red{
@@ -79,6 +91,24 @@ span.red{
 
 span.green{
   background-color: green;
+}
+
+figcaption{
+  color: gray;
+}
+
+main section h2{
+  font-size: 1.2rem;
+}
+
+div.price{
+  font-weight: bolder;
+  color: red;
+}
+
+div.price span{
+text-decoration: line-through black;
+color: gray;
 }
 /* end main */
 
