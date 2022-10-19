@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.flex-space-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+header{
+  background-color: orangered;
+}
+
+nav{
+  height: 3rem;
+}
+
+nav ul li{
+  display: inline;
+}
