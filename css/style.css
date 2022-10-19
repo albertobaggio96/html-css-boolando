@@ -113,6 +113,24 @@ div.price span{
 text-decoration: line-through black;
 color: gray;
 }
+
+img.second{
+  display: none;
+}
+
+section:hover img.first{
+  display: none;
+}
+
+section:hover img.second{
+  display: inline-block;
+  cursor: pointer;
+}
+
+div.heart:hover{
+  color: red;
+  cursor: pointer;
+}
 /* end main */
 
 /* footer */
