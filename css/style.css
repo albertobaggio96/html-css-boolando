@@ -32,8 +32,11 @@ ul li{
 /* header */
 
 header{
-  background-color: orangered;
+  background-color: #ff6900;
   color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 nav{
@@ -48,6 +51,7 @@ header img{
 
 /* main */
 main{
+  padding-top:3rem ;
   display: flex;
 }
 
