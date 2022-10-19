@@ -40,7 +40,7 @@ main{
   display: flex;
 }
 
-section{
+main section{
   margin-top: 2rem;
   width: calc(100% / 3 - 1rem);
 }
@@ -70,4 +70,13 @@ span.red{
 
 span.green{
   background-color: green;
+}
+/* end main */
+
+/* footer */
+footer{
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
 }
