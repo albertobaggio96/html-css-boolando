@@ -8,12 +8,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .container{
   width: 70%;
   margin: 0 auto;
 }
+
+.p-relative{
+  position: absolute;
+}
+
+/* header */
 
 header{
   background-color: orangered;
@@ -25,4 +32,42 @@ nav{
 
 nav ul li{
   display: inline;
+}
+/* end header */
+
+/* main */
+main{
+  display: flex;
+}
+
+section{
+  margin-top: 2rem;
+  width: calc(100% / 3 - 1rem);
+}
+
+figure{
+  position: relative;
+}
+
+main img{
+  width: 100%;
+}
+
+div.heart{
+  top: .5rem;
+  right: 0;
+  padding: .5rem 1rem;
+  background-color: white;
+}
+
+div.discount{
+  bottom: 2rem;
+}
+
+span.red{
+  background-color: red;
+}
+
+span.green{
+  background-color: green;
 }
