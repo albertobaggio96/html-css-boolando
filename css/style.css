@@ -54,7 +54,7 @@ main{
   display: flex;
 }
 
-main section{
+main .card{
   margin-top: 2rem;
   width: calc(100% / 3 - 1rem);
 }
@@ -124,11 +124,11 @@ img.second{
   display: none;
 }
 
-section:hover img.first{
+div.card:hover img.first{
   display: none;
 }
 
-section:hover img.second{
+div.card:hover img.second{
   display: inline-block;
   cursor: pointer;
 }
