@@ -103,8 +103,8 @@ section span.green{
 }
 
 
-main section h2{
-  font-size: 0.8rem;
+main div.dress-name{
+  font-weight: bolder;
   text-transform: uppercase;
 }
 
